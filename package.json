@@ -1,0 +1,15 @@
+{
+  "name": "couchbaseclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"LCB_LOGLEVEL=5 node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "timfulmer",
+  "license": "MIT",
+  "dependencies": {
+    "couchbase": "^2.2.2"
+  }
+}
